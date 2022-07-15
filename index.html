@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+    <link rel="icon" href="sun-48.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+        <div id="header">
+            <input id="input" type="text" spellcheck="false" placeholder="Please enter city...">
+        </div>
+<div class="inform">        
+    <div id="when-where">
+        <p id="city" class="city_start"></p>
+        <p id="date"> </p>
+        <p id="hours"></p>
+    </div>
+        <div id="now">
+            <div class="temperatura">
+                <p id="tempera_C" class="geo_C" ><span>℃</span></p>
+                <p id="tempera_F" class="geo_F"><span>℉</span></p>
+            </div>
+            <p id="feels">30℃</p>
+            <p id="condishion"> Sunny</p>
+            <p id="wind"><span> м/сек</span> </p>
+        </div>
+
+</div>
+</div>
+   <script src="script.js"></script> 
+</body>
+</html>
